@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "status": "ready-for-pickup",
+      "eta": "2021-09-20T01:54:12Z",
+      "parcel_id": "0031",
+      "sender": "Tagfeed",
+      "verification_required": false,
+      "location_id": "AL13 7195 4785 QVDI SYL3 6ZXE QJSB",
+      "location_name": "Katie",
+      "location_coordinate_latitude": 50.2637942,
+      "location_coordinate_longitude": 17.3960222,
+      "location_status_ok": false,
+      "user_phone": "+46 729478015",
+      "user_name": "Carl Johan De Geer",
+      "notes": null,
+      "last_updated": "2021-09-23T03:29:23Z"
+    }
+]

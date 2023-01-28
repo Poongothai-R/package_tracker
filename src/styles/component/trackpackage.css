@@ -1,0 +1,110 @@
+h1 {
+    padding: 25px 10px 25px 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.track-package {
+    padding: 0 5vw 0 5vw;
+    font-family: var(--font-family);
+}
+
+.track-box {
+    /* height: 25vh; */
+    width: 90vw;
+    background-color: var(--color-primary);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.track-box span {
+    color: var(--color-white);
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#parcelno-input {
+    height: 30px;
+    width: 50%;
+}
+
+#track-now-btn {
+    height: 30px;
+    width: 30%;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 3px solid black;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1rem;
+    padding-top: 5px;
+}
+
+#track-now-btn:hover {
+    border: 3px solid var(--color-secondary);
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+@media (min-width: 550px) {
+
+    h1 {
+        padding: 30px 100px 30px 100px;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .track-package {
+        padding: 0px 20vw 0 20vw;
+    }
+
+    .track-box {
+        /* height: 25vh; */
+        width: 60vw;
+    }
+
+    #track-now-btn {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1020px) {
+
+    .track-package {
+        padding: 0px 5vw 0 5vw;
+    }
+
+    @media (max-width:1080px) {
+        .track-package {
+            padding: 0px 15vw 0 15vw;
+        }
+    }
+
+
+    h1 {
+        text-align: center;
+    }
+
+    .track-box {
+        width: 100%;
+    }
+
+    #parcelno-input {
+        width: 40%;
+    }
+
+    #track-now-btn {
+        width: 20%;
+    }
+}

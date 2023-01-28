@@ -1,0 +1,14 @@
+#homepage {
+    padding-top: 80px;
+    font-family: var(--font-family);
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width:950px) {
+    #homepage{
+        width: 900px;
+        margin: 0 auto;
+    }
+}

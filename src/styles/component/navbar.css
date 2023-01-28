@@ -1,0 +1,36 @@
+#navbar {
+    width: 100vw;
+    height: 80px;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+.logo{
+    padding-left: 10px;
+    width: 150px;
+    height: 70px;
+}
+
+
+.FaIcon{
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding: 10px;
+}
+
+@media (min-width:950px) {
+    .FaIcon{
+        padding-right: 50px;
+    }
+     .logo{
+        padding-left: 50px;
+     }
+}

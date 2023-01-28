@@ -1,0 +1,46 @@
+.loading-page{
+    /* padding-top: 80px; */
+    width: 80%;
+    min-height: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.load-content{
+    padding: 20vh 0;
+}
+
+.load-content h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: justify;
+    padding: 25px 5vw;
+}
+
+h3{
+    font-size: 24px;
+    padding: 16px 0;
+    text-align: center  ;
+}
+
+.load-content span{
+    color: var(--color-secondary);
+    padding: 0;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+@media (min-width:1020px) {
+    p{
+        padding: 25px 20vw;
+    }
+}

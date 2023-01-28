@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
+:root {
+    --color-white: #fff;
+    --color-primary: #051f30;
+    --color-secondary: #fcad15;
+    --font-family: "Quicksand", "Times New Roman";
+}
