@@ -13,7 +13,6 @@ L.Icon.Default.mergeOptions({
     shadowUrl: iconShadow,
 });
 
-
 export default function LocationMap({ItemDetail}) {
     const {location_coordinate_latitude, location_coordinate_longitude, sender, location_name} = ItemDetail;
     const position = [location_coordinate_latitude, location_coordinate_longitude];

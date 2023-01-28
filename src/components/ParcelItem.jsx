@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function ParcelItem({ ItemDetail }) {
     const { parcel_id, location_name,sender, user_name, eta } = ItemDetail;
+    const [date] = eta.split("T");
     return (
         <div className="item-page">
             <Link className="back-page" to={"/"}>
@@ -32,7 +33,7 @@ export default function ParcelItem({ ItemDetail }) {
                             </div>
                             <div className="eta-detail">
                                 <span>ETA</span>
-                                <span>{eta}</span>
+                                <span>{date}</span>
                             </div>
                         </div>
                     </div>
