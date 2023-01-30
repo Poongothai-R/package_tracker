@@ -9,7 +9,7 @@ export default function TrackHistory({data}) {
 
     return(
         <div className="track-history">
-            <h1>Tracking History</h1>
+            <h1>Your Packages..</h1>
             <div className="parcel-list">{parcelItem}</div>
         </div>
     )

@@ -1,4 +1,4 @@
-.mapcontainer .leaflet-container {
+.map-container .leaflet-container {
     height: 50vh;
     width:95%;
     position: relative;
@@ -22,14 +22,14 @@
   }
 
   @media (min-width: 750px) and (max-width:1020px){
-    .mapcontainer .leaflet-container {
+    .map-container .leaflet-container {
         height: 45vh;
         width:60%
     }
 }
 
 @media (min-width: 1020px){
-    .mapcontainer .leaflet-container {
+    .map-container .leaflet-container {
         height: 50vh;
         width: 45%;
     }

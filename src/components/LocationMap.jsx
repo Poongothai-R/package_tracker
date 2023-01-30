@@ -17,7 +17,8 @@ export default function LocationMap({ItemDetail}) {
     const {location_coordinate_latitude, location_coordinate_longitude, sender, location_name} = ItemDetail;
     const position = [location_coordinate_latitude, location_coordinate_longitude];
 
-    return (<div className="mapcontainer">
+    return (
+        <div className="map-container">
             <MapContainer center={position} zoom={10} scrollWheelZoom={false}>
                 <TileLayer
                     attribution="&copy; InstaPacket 2023"
@@ -28,7 +29,7 @@ export default function LocationMap({ItemDetail}) {
                         {sender},{location_name}
                     </Popup>
                 </Marker>
-            </MapContainer></div>
-
+            </MapContainer>
+        </div>
     );
 }

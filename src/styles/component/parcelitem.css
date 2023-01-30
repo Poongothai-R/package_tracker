@@ -5,16 +5,14 @@
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: center;
+    justify-content: left;
     padding: 10px;
     text-decoration: none;
     color: inherit;
 }
-
 #BackArrow {
     height: 35px;
     width: 35px;
-
 }
 
 .back-page span {
@@ -24,7 +22,7 @@
 
 .outer-box {
     width: 80%;
-    height: 35vh;
+    height: 40vh;
     margin: 0 auto;
     padding: 30px;
     background-color: var(--color-primary);
@@ -54,7 +52,7 @@
 
 .inner-box {
     width: 95%;
-    height: 65%;
+    height: 70%;
     margin: 20px auto;
     background-color: #3B4E5B;
     border-radius: 10px;
@@ -86,6 +84,7 @@
     flex-wrap: wrap;
     flex-grow: 3;
     column-gap: 10px;
+
 }
 
 .from-detail span, .eta-detail span, .to-detail span{
@@ -107,7 +106,9 @@
     .back-page span {
         font-size: 28px;
     }
-    
+    .back-page{
+        padding-left: 22%;
+    }
 
 }
 
@@ -119,11 +120,13 @@
     #BackArrow {
         height: 50px;
         width: 50px;
-    
     }
     
     .back-page span {
         font-size: 28px;
+    }
+    .back-page{
+        padding-left: 32%;
     }
 }
 
@@ -135,10 +138,12 @@
     #BackArrow {
         height: 50px;
         width: 50px;
-    
     }
     
     .back-page span {
         font-size: 28px;
+    }
+    .back-page{
+        padding-left: 30%;
     }
 }

@@ -1,7 +1,7 @@
 .parcel-status {
     margin-left: 2.5rem;
     border-left: 3px solid var(--color-primary);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .not-active,
@@ -11,17 +11,18 @@
     padding-bottom: 2rem;
     position: relative;
 }
-
-.completed:last-child{
-    padding-bottom: 0
-}
-
 .not-active span,
 .completed span,
 .active span {
     margin: 0;
+    padding-top: 0;
     font-size: larger;
     font-weight: 600;
+}
+.not-active span:last-child,
+.completed span:last-child,
+.active span:last-child {
+    padding-bottom: 0;
 }
 
 .not-active::before , .completed::before , .active::before {
@@ -35,31 +36,27 @@
     left: -.7rem;
 }
 
-.active:last-child, .not-active:last-child {
-    padding-bottom: 0rem;
+.active:last-child, .not-active:last-child ,.completed:last-child{
+    padding-bottom: 0;
 }
 
-.completed::before, .active:last-child:before {
+.completed::before {
     content: "";
     font-size: large;
     background: var(--color-secondary);
     border: 2px solid var(--color-primary);
 }
 
-.active::before {
+.active::before,.active:last-child:before {
     content: "";
     background: var(--color-primary);
     border: 2px solid var(--color-secondary);
-    box-shadow: 0px 0px 14px 4px rgba(0,0,0,8);
+    box-shadow: 0 0 14px 4px rgba(0,0,0,8);
 }
-
-
-@media (min-width: 550px) and (max-width:750px) {}
 
 @media (min-width: 750px) and (max-width:1020px) {
     .parcel-status {
         margin-left: 25%;
-        border-left: 3px solid var(--color-primary);
         margin-bottom: 50px;
     }
 

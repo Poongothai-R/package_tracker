@@ -4,14 +4,7 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
-
-.track-package {
-    padding: 0 5vw 0 5vw;
-    font-family: var(--font-family);
-}
-
 .track-box {
-    /* height: 25vh; */
     width: 90vw;
     background-color: var(--color-primary);
     border-radius: 25px;
@@ -22,16 +15,16 @@ h1 {
     flex-direction: column;
     gap: 10px;
     padding: 10px 0;
+    margin:0 auto;
 }
 
 .track-box span {
     color: var(--color-white);
     font-size: larger;
     font-weight: bold;
-
 }
 
-#parcelno-input {
+#parcelNo-input {
     height: 30px;
     width: 50%;
 }
@@ -65,12 +58,7 @@ h1 {
         font-weight: bold;
     }
 
-    .track-package {
-        padding: 0px 20vw 0 20vw;
-    }
-
     .track-box {
-        /* height: 25vh; */
         width: 60vw;
     }
 
@@ -80,24 +68,12 @@ h1 {
 }
 
 @media (min-width: 1020px) {
-
-    .track-package {
-        padding: 0px 5vw 0 5vw;
-    }
-
-    @media (max-width:1080px) {
-        .track-package {
-            padding: 0px 15vw 0 15vw;
-        }
-    }
-
-
     h1 {
         text-align: center;
     }
 
     .track-box {
-        width: 100%;
+        width: 70%;
     }
 
     #parcelno-input {
