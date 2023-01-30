@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 
 export default function ParcelItem({ ItemDetail }) {
 
-    const { parcel_id, location_name,sender, user_name, eta, verification_required,notes } = ItemDetail;
+    const { parcel_id, location_name,sender, last_updated, eta, verification_required,notes } = ItemDetail;
     const [date] = eta.split("T");
+    const [lastUpdated] = last_updated.split("T");
 
     return (
         <div className="item-page">
@@ -25,10 +26,10 @@ export default function ParcelItem({ ItemDetail }) {
                     <div className="inner-box">
                         <div className="detail">
                         <span> From : {location_name}</span>
-                        <span> User_name : {user_name}</span>
+                        <span> Verification Required : {verification_required ? "yes" : "No"}</span>
                         <span> ETA : {date}</span>
-                        <span> Verification_required : {verification_required ? "yes" : "No"}</span>
                         <span> Notes: {notes === null ? "No notes provided" : `${notes}`}</span>
+                        <span> Last Updated : {lastUpdated}</span>
                         </div>
                     </div>
                 </div>

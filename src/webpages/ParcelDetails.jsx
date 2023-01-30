@@ -11,7 +11,7 @@ export default function ParcelDetails({ParcelData}) {
     const ItemData = ParcelData.find((recs) => Number(recs.parcel_id) === Number(id));
 
     return (
-        <div className="pracel-detail-page">
+        <div className="parcel-detail-page">
             <ParcelItem ItemDetail={ItemData}/>
             <h1> Tracking Status</h1>
             <ParcelStatus ItemDetail={ItemData}/>

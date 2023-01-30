@@ -1,11 +1,11 @@
-.pracel-detail-page {
+.parcel-detail-page {
     padding-top: 80px;
     font-family: var(--font-family);
     position: relative;
     box-sizing: border-box;
 }
 
-.pracel-detail-page h1{
+.parcel-detail-page h1{
     text-align: left;
     padding-left: 2.5rem;
 }
@@ -13,15 +13,15 @@
 
 @media (min-width: 750px) and (max-width:1020px)
  {
-    .pracel-detail-page h1{
-        margin-left: 25%;
+    .parcel-detail-page h1{
+        margin-left: 20%;
         padding-left: 0;
     }
 }
 
 @media (min-width: 1020px){
-    .pracel-detail-page h1{
-        margin-left: 40%;
+    .parcel-detail-page h1{
+        margin-left: 28%;
         padding-left: 0;
     }
 }

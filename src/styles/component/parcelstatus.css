@@ -87,7 +87,7 @@
 @media (min-width: 1020px) {
 
     .parcel-status {
-        margin-left: 40%;
+        margin-left: 32%;
         border-left: 3px solid var(--color-primary);
         margin-bottom: 50px;
     }
