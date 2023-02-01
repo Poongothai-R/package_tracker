@@ -1,6 +1,6 @@
-import "../styles/component/loading.css";
+import "../styles/component/loadingScreen.css";
 
-export default function Loading() {
+export default function LoadingScreen() {
     return (
             <div className="load-content">
                 <h1> Welcome to Insta<span>Packet</span></h1>

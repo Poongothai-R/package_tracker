@@ -1,5 +1,5 @@
 import "../styles/component/parcelitem.css";
-import { BiArrowBack, BiPackage } from "react-icons/bi";
+import { BiPackage } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
 
@@ -11,10 +11,6 @@ export default function ParcelItem({ ItemDetail }) {
 
     return (
         <div className="item-page">
-            <Link className="back-page" to={"/"}>
-                <BiArrowBack className="BiIcons" id="BackArrow" />
-                <span>Go Back</span>
-            </Link>
                 <div className="outer-box">
                     <div className="top-section">
                         <BiPackage className="BiIcons" id="ParcelBox" />

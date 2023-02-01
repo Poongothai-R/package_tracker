@@ -2,7 +2,7 @@ import "../styles/webpages/homepage.css";
 import TrackPackage from "../components/TrackPackage";
 import TrackHistory from "../components/TrackHistory";
 
-export default function HomePage({data}) {
+export default function Home({data}) {
     
     const userName = data
                     .map((recs)=>recs.user_name)

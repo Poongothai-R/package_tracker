@@ -1,6 +1,7 @@
 import "../styles/webpages/parceldetails.css";
 import ParcelItem from "../components/ParcelItem";
-import {useParams} from "react-router-dom";
+import {useParams,Link} from "react-router-dom";
+import { BiArrowBack, BiPackage } from "react-icons/bi";
 import ParcelStatus from "../components/ParcelStatus";
 import LocationMap from "../components/LocationMap";
 
@@ -12,13 +13,16 @@ export default function ParcelDetails({ParcelData}) {
 
     return (
         <div className="parcel-detail-page">
-            <ParcelItem ItemDetail={ItemData}/>
-            <h1> Tracking Status</h1>
-            <ParcelStatus ItemDetail={ItemData}/>
-            <h1> Location </h1>
-            <div className="locationmap">
+            <h1 className="heading">Your Parcel details</h1>
+                <ParcelItem ItemDetail={ItemData}/>
+            <h2 className="heading"> Tracking Status</h2>
+                <ParcelStatus ItemDetail={ItemData}/>
+            <h3 className="heading"> Location </h3>
                 <LocationMap ItemDetail={ItemData}/>
-            </div>
+            <Link className="back-page" to={"/"}>
+                <BiArrowBack className="BiIcons" id="BackArrow" />
+                <span>Go Back</span>
+            </Link>
         </div>
     );
 }

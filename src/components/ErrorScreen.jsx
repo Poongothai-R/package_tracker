@@ -1,7 +1,7 @@
-import "../styles/component/loading.css";
+import "../styles/component/loadingScreen.css";
 
 
-export default function ErrorPage(){
+export default function ErrorScreen(){
     return(
         <div className="load-content">
         <h1>We will be back soon..</h1>

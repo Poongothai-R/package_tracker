@@ -1,4 +1,4 @@
-h1 {
+h1,h2,h3 {
     padding: 25px 10px 25px 10px;
     font-size: 28px;
     font-weight: bold;
@@ -52,7 +52,7 @@ h1 {
 
 @media (min-width: 550px) {
 
-    h1 {
+    h1,h2,h3 {
         padding: 30px 100px 30px 100px;
         font-size: 32px;
         font-weight: bold;
@@ -68,7 +68,7 @@ h1 {
 }
 
 @media (min-width: 1020px) {
-    h1 {
+    h1,h2,h3 {
         text-align: center;
     }
 

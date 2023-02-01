@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.parcel-detail-page h1{
+.heading{
     text-align: left;
     padding-left: 2.5rem;
 }
@@ -13,14 +13,14 @@
 
 @media (min-width: 750px) and (max-width:1020px)
  {
-    .parcel-detail-page h1{
+  .heading{
         margin-left: 20%;
         padding-left: 0;
     }
 }
 
 @media (min-width: 1020px){
-    .parcel-detail-page h1{
+    .heading{
         margin-left: 28%;
         padding-left: 0;
     }

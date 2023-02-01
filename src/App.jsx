@@ -1,13 +1,13 @@
-import "./app.css";
+import "./styles/global/layout.css";
 import "./styles/global/variable.css";
-import Navbar from "./components/Navbar";
-import HomePage from "./webpages/HomePage";
-import useFetchData from "./utils/useFetchData";
+import Header from "./components/Header";
+import Home from "./webpages/Home";
+import useFetchData from "./hooks/useFetchData";
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 import Footer from "./components/Footer";
-import Loading from "./components/Loading";
+import LoadingScreen from "./components/LoadingScreen";
 import ParcelDetails from "./webpages/ParcelDetails";
-import ErrorPage from "./components/ErrorPage";
+import ErrorScreen from "./components/ErrorScreen";
 import GoToTop from "./utils/goTop";
 
 
@@ -19,10 +19,10 @@ export default function App() {
     return (
         <BrowserRouter>
             <GoToTop/>
-            {!errorData && <Navbar/>}
+            {!errorData && <Header/>}
             <Routes>
-                <Route path="/" element={apiData ? <HomePage data={apiData}/> : (errorData ?
-                       <ErrorPage /> : (isLoading && <Loading/>))}/>
+                <Route path="/" element={apiData ? <Home data={apiData}/> : (errorData ?
+                       <ErrorScreen /> : (isLoading && <LoadingScreen/>))}/>
                 <Route path="/parcel/:id" element={<ParcelDetails ParcelData={apiData}/>}/>
             </Routes>
             {!errorData && <Footer/>}
