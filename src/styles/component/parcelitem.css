@@ -23,7 +23,7 @@
 
 .outer-box {
     width: 80%;
-    height: 40vh;
+    height: 45vh;
     margin: 0 auto;
     padding: 30px;
     background-color: var(--color-primary);
@@ -54,7 +54,7 @@
 .inner-box {
     width: 95%;
     height: 70%;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: #3B4E5B;
     border-radius: 10px;
     padding: 5px;
@@ -67,25 +67,25 @@
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
-    column-gap: 10px;
+    column-gap: 8px;
 
 }
-@media (min-width:250px) and (max-width:380px){
+/*@media (min-width:250px) and (max-width:380px){
     .inner-box{
-        height: 75%;
+        height: 70%;
     }
     .outer-box{
         height: 45vh;
     }
-}
+}*/
 
     @media (min-width:550px) and (max-width:950px) {
         .outer-box {
             width: 50%;
-            height: 30%;
+            height: 35%;
         }
         .inner-box {
-            width: 70%;
+            width: 80%;
         }
         #BackArrow {
             height: 50px;
