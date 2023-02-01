@@ -1,7 +1,6 @@
 .load-content{
     padding: 20vh 0;
 }
-
 .load-content h1{
     text-align: center;
     text-decoration: underline;
@@ -9,18 +8,16 @@
     font-size: 24px;
     font-weight: 600;
 }
-
 p{
     font-size: 16px;
     font-weight: 600;
     text-align: center;
     padding: 25px 5vw;
 }
-
-h3{
+ .load-content em{
     font-size: 24px;
     padding: 16px 0;
-    text-align: center  ;
+    text-align: center
 }
 
 .load-content span{

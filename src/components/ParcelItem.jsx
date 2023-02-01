@@ -1,6 +1,5 @@
 import "../styles/component/parcelitem.css";
 import { BiPackage } from "react-icons/bi";
-import { Link } from "react-router-dom";
 
 
 export default function ParcelItem({ ItemDetail }) {

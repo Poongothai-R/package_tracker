@@ -8,7 +8,16 @@
     bottom: 0;
     padding: 20px;
 }
-
+.footer-top {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-top a{
+    color: var(--white-);
+}
 span{
     font-size: smaller;
     height: 100%;
