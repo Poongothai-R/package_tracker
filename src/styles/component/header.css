@@ -25,15 +25,6 @@
     cursor: pointer;
 }
 
-.btn{
-   /* background-color: var(--color-white);*/
-    cursor: pointer;
-    border-radius: 5px;
-    height: 30px;
-    width: 30px;
-    align-content: center;
-
-}
 .header-icons{
    display: flex;
     justify-content: center;

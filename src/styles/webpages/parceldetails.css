@@ -9,7 +9,24 @@
     text-align: left;
     padding-left: 2.5rem;
 }
+.back-page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+#BackArrow {
+    height: 35px;
+    width: 35px;
+}
 
+.back-page span {
+    font-size: 20px;
+}
 
 @media (min-width: 750px) and (max-width:1020px)
  {

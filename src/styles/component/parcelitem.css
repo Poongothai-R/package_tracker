@@ -1,26 +1,6 @@
 .item-page{
     padding-bottom: 50px;
 }
-.back-page {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    padding: 10px;
-    text-decoration: none;
-    color: inherit;
-}
-#BackArrow {
-    height: 35px;
-    width: 35px;
-}
-
-.back-page span {
-    font-size: 20px;
-}
-
-
 .outer-box {
     width: 80%;
     height: 48vh;
@@ -32,7 +12,6 @@
     font-weight: 400;
     font-size: 18px;
 }
-
 .top-section {
     display: flex;
     align-items: center;
@@ -70,15 +49,6 @@
     column-gap: 8px;
 
 }
-/*@media (min-width:250px) and (max-width:380px){
-    .inner-box{
-        height: 70%;
-    }
-    .outer-box{
-        height: 45vh;
-    }
-}*/
-
     @media (min-width:550px) and (max-width:950px) {
         .outer-box {
             width: 50%;

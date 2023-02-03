@@ -1,14 +1,12 @@
 .track-history {
     padding: 25px 0px 25px 0px;
     font-family: var(--font-family);
-    /* position: relative; */
 }
 
 .parcel-list {
     height: 49vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
-
     /* IE edge */
     -ms-overflow-style: none;
     /* for firebox*/
@@ -19,13 +17,4 @@
 .parcel-list::-webkit-scrollbar {
     /* for Chrome, Safari, and Opera */
     display: none;
-}
-
-
-@media (min-width:750px) and (max-width: 950px){
-
-}
-
-@media (min-width:950px) {
-
 }

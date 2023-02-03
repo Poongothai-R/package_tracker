@@ -1,4 +1,4 @@
-import "../styles/component/trackhistory.css";
+import "../styles/component/parcelhistory.css";
 import ParcelCard from "./ParcelCard";
 import { useTranslation } from "react-i18next";
 
