@@ -13,7 +13,7 @@ export default function Home({data}) {
     return (
         <div className="home-page" id="homepage">
             <h1> {t('hello')}! {userName}</h1>
-            <TrackPackage />
+            <TrackPackage  data={data}/>
             <ParcelHistory data={data}/>
         </div>
     );

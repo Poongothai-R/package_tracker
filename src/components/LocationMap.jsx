@@ -1,19 +1,10 @@
 import "../styles/component/locationmap.css";
 import "leaflet/dist/leaflet.css";
-import {MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
-import iconMarker from "leaflet/dist/images/marker-icon.png";
-import iconRetina from "leaflet/dist/images/marker-icon-2x.png";
-import iconShadow from "leaflet/dist/images/marker-shadow.png";
-import L from "leaflet";
+import {MapContainer, TileLayer, Marker, Tooltip} from "react-leaflet";
 
-
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: iconRetina,
-    iconUrl: iconMarker,
-    shadowUrl: iconShadow,
-});
 
 export default function LocationMap({ItemDetail}) {
+
     const {location_coordinate_latitude, location_coordinate_longitude, sender, location_name} = ItemDetail;
     const position = [location_coordinate_latitude, location_coordinate_longitude];
 
@@ -25,9 +16,7 @@ export default function LocationMap({ItemDetail}) {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <Marker position={position}>
-                    <Popup>
-                        {sender},{location_name}
-                    </Popup>
+                    <Tooltip direction="left" offset={[-20, 0]} opacity={50} permanent>{location_name}</Tooltip>
                 </Marker>
             </MapContainer>
         </div>

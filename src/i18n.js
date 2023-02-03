@@ -26,7 +26,8 @@ const resources = {
             "yes":"Yes",
             "no":"No",
             "paragraph":"Thanks for using InstaPacket app. we deliver your package fast & safe.you will land to the app page in few seconds. we are fetching the data for you.",
-            "para":"Page is Loading..."
+            "para":"Page is Loading...",
+            "alert":"Please Check your Parcel ID"
         }
     },
     sw: {
@@ -53,7 +54,8 @@ const resources = {
             "yes":"Ja",
             "no":"Nej",
             "paragraph":"Tack för att du använder InstaPacket-appen. vi levererar ditt paket snabbt och säkert.du kommer till appsidan på några sekunder. vi hämtar uppgifterna åt dig.",
-            "para":"Sidan laddas..."
+            "para":"Sidan laddas...",
+            "alert":"kontrollera ditt paket ID"
     }
     }
 };

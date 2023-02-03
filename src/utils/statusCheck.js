@@ -8,8 +8,8 @@ export default function statusCheck({status}, seq_id) {
     else if (status === "on-the-way") seq_no = 3 ;
     else seq_no = 4;
 
-    {/* --- For classname selection---*/}
-    if (seq_id < seq_no) return "completed";
-    else if (seq_id === seq_no) return "active" ;
-    else if (seq_id > seq_no) return "not-active";
+    /* For classname selection */
+    if (seq_id < seq_no) {return "completed";}
+    else if (seq_id === seq_no){ return "active" ;}
+    else if (seq_id > seq_no){ return "not-active";}
 }

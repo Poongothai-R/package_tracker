@@ -17,7 +17,7 @@
     width: 150px;
     height: 70px;
 }
-.FaIcon{
+.FaIcon {
     height: 30px;
     width: 30px;
     color: white;
@@ -31,6 +31,11 @@
     align-items: center;
 }
 
+.translate{
+    margin-right: 10px;
+}
+
+
 @media (min-width:950px) {
     .FaIcon{
         padding-right: 50px;
@@ -38,4 +43,8 @@
      .logo{
         padding-left: 50px;
      }
+    .translate{
+        margin-right: 50px;
+    }
 }
+
