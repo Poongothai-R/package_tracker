@@ -6,7 +6,7 @@ const resources = {
         translation: {
             "hello": "Hello",
             "track_your_package": "Track Your Package",
-            "enter_parcel_id": "Enter Your Parcel_id",
+            "enter_parcel_id": "Enter Your Parcel ID",
             "track_now": "Track Now",
             "your_packages": "Your Packages",
             "your_parcel_details":"Your Parcel Details ",
@@ -22,16 +22,18 @@ const resources = {
             "from":"From",
             "verification_required":"Verification Required",
             "notes":"Notes",
-            "last_updated":"Lst Updated",
+            "last_updated":"Last Updated",
             "yes":"Yes",
-            "no":"No"
+            "no":"No",
+            "paragraph":"Thanks for using InstaPacket app. we deliver your package fast & safe.you will land to the app page in few seconds. we are fetching the data for you.",
+            "para":"Page is Loading..."
         }
     },
     sw: {
         translation: {
             "hello": "Hej",
             "track_your_package":"Spåra Ditt Paket",
-            "enter_parcel_id":"Ange Ditt Paket-id",
+            "enter_parcel_id":"Ange Ditt Paket ID",
             "track_now" : "Spåra Nu",
             "your_packages": "Dina Paket",
             "your_parcel_details": "Dina Paket Uppgifter",
@@ -49,7 +51,9 @@ const resources = {
             "notes":"Anteckningar",
             "last_updated":"Senast Uppdaterad",
             "yes":"Ja",
-            "no":"Nej"
+            "no":"Nej",
+            "paragraph":"Tack för att du använder InstaPacket-appen. vi levererar ditt paket snabbt och säkert.du kommer till appsidan på några sekunder. vi hämtar uppgifterna åt dig.",
+            "para":"Sidan laddas..."
     }
     }
 };

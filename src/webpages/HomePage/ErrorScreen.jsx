@@ -1,4 +1,4 @@
-import "../styles/component/loadingScreen.css";
+import "../../styles/component/loadingScreen.css";
 
 
 export default function ErrorScreen(){

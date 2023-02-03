@@ -1,6 +1,6 @@
 import "../styles/component/parcelstatus.css";
 import statusCheck from "../utils/statusCheck";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 
 export default function ParcelStatus({ItemDetail}) {

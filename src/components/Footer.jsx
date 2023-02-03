@@ -1,5 +1,5 @@
 import "../styles/component/footer.css";
-import { FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
     return(

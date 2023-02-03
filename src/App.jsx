@@ -1,13 +1,13 @@
 import "./styles/global/layout.css";
 import "./styles/global/variable.css";
 import Header from "./components/Header";
-import Home from "./webpages/Home";
 import useFetchData from "./hooks/useFetchData";
 import {Routes, Route, BrowserRouter} from "react-router-dom";
+import Home from "./webpages/HomePage/Home";
+import ParcelDetails from "./webpages/ParcelDetailed_page/ParcelDetails"
 import Footer from "./components/Footer";
-import LoadingScreen from "./components/LoadingScreen";
-import ParcelDetails from "./webpages/ParcelDetails";
-import ErrorScreen from "./components/ErrorScreen";
+import LoadingScreen from "./webpages/HomePage/LoadingScreen";
+import ErrorScreen from "./webpages/HomePage/ErrorScreen";
 import GoToTop from "./utils/goTop";
 
 

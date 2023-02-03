@@ -1,9 +1,9 @@
-import "../styles/webpages/parceldetails.css";
-import ParcelItem from "../components/ParcelItem";
+import "../../styles/webpages/parceldetails.css";
+import ParcelItem from "../../components/ParcelItem";
 import {useParams,Link} from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
-import ParcelStatus from "../components/ParcelStatus";
-import LocationMap from "../components/LocationMap";
+import ParcelStatus from "../../components/ParcelStatus";
+import LocationMap from "../../components/LocationMap";
 import { useTranslation } from 'react-i18next';
 
 
