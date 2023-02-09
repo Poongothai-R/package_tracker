@@ -12,7 +12,6 @@ export default function Home({ data }) {
   return (
     <div className="home-page" id="homepage">
       <h1>
-        {" "}
         {t("hello")}! {userName}
       </h1>
       <TrackPackage data={data} />

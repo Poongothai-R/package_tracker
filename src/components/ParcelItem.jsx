@@ -17,7 +17,7 @@ export default function ParcelItem({ ItemDetail }) {
   const { t } = useTranslation();
 
   // naming -1
-  function str() {
+  function string() {
     if (verification_required) return t("yes");
     else return t("no");
   }
@@ -29,7 +29,6 @@ export default function ParcelItem({ ItemDetail }) {
           <BiPackage className="BiIcons" id="ParcelBox" />
           <div className="span-group">
             <span>
-              {" "}
               {t("parcel_id")} : {parcel_id}
             </span>
             <span>Sender : {sender}</span>

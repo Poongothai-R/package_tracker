@@ -9,18 +9,10 @@ export default function ParcelStatus({ ItemDetail }) {
   return (
     // DRY this can clearly be done dynamically using a map function
     <div className="parcel-status">
-      <div className={statusCheck({ status }, 1)}>
-        <span>{t("order_info_received")}</span>
-      </div>
-      <div className={statusCheck({ status }, 2)}>
-        <span>{t("ready_for_pickup")}</span>
-      </div>
-      <div className={statusCheck({ status }, 3)}>
-        <span>{t("on_the_way")}</span>
-      </div>
-      <div className={statusCheck({ status }, 4)}>
-        <span>{t("delivered")}</span>
-      </div>
+      <ItemHighlight text={t("info_received")} status={status} level={1} />
+      <ItemHighlight text={t("ready_for_pickup")} status={status} level={2} />
+      <ItemHighlight text={t("on_the_way")} status={status} level={3} />
+      <ItemHighlight text={t("delivered")} status={status} level={4} />
     </div>
   );
 }
