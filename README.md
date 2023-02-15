@@ -32,10 +32,10 @@ Requirement Gathering : https://docs.google.com/document/d/1WNrMue77Tj-9HmITvB2s
 
 Project Spreadsheet : https://docs.google.com/spreadsheets/d/1Nu_CiJEo_axNj--NEy4VhMRC2-cZo34py7_9H_Vmv90/edit
 
-Component Tree : https://whimsical.com/package-tracker-TNswn4dUvUT48oBKtLu6YM
+User Flow : https://whimsical.com/package-tracker-TNswn4dUvUT48oBKtLu6YM
 
 Figma Design : https://www.figma.com/file/c8BwxMF2IgX734QGlX9i26/PackageTracker?node-id=0%3A1
 
-UserFlow :https://whimsical.com/packge-tracker-8wJkJaVB5DDGuR7rWNKga2
+Component Tree :https://whimsical.com/packge-tracker-8wJkJaVB5DDGuR7rWNKga2
 
 
